@@ -1,0 +1,6 @@
+{
+  "name": "AL-AQSA POS",
+  "description": "نظام كاشير وإدارة المبيعات والمخزون والمشتريات والأرباح لمكتبة الأقصى – عبدالرحمن",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,176 @@
+package com.example.data.database
+
+import com.example.data.model.ProductEntity
+
+object SampleData {
+    fun getInitialProducts(): List<ProductEntity> = listOf(
+        ProductEntity(
+            name = "أقلام جاف أزرق بايلوت 0.7",
+            barcode = "628100101001",
+            category = "أقلام ومحايات",
+            purchaseUnit = "دستة (12 قلم)",
+            conversionFactor = 12,
+            purchaseCostPerUnit = 24.0,
+            costPerPiece = 2.0,
+            saleUnit = "قطعة",
+            salePricePerPiece = 3.5,
+            salePricePerDozen = 36.0,
+            stockPieces = 48,
+            minStockAlert = 10
+        ),
+        ProductEntity(
+            name = "أقلام جاف أسود روترينج",
+            barcode = "628100101002",
+            category = "أقلام ومحايات",
+            purchaseUnit = "دستة (12 قلم)",
+            conversionFactor = 12,
+            purchaseCostPerUnit = 30.0,
+            costPerPiece = 2.5,
+            saleUnit = "قطعة",
+            salePricePerPiece = 4.0,
+            salePricePerDozen = 44.0,
+            stockPieces = 36,
+            minStockAlert = 8
+        ),
+        ProductEntity(
+            name = "أقلام رصاص HB فابر كاستل",
+            barcode = "628100101003",
+            category = "أقلام ومحايات",
+            purchaseUnit = "علبة (12 قلم)",
+            conversionFactor = 12,
+            purchaseCostPerUnit = 18.0,
+            costPerPiece = 1.5,
+            saleUnit = "قطعة",
+            salePricePerPiece = 2.5,
+            salePricePerDozen = 26.0,
+            stockPieces = 60,
+            minStockAlert = 12
+        ),
+        ProductEntity(
+            name = "دفتر سلك جامعي 80 ورقة عربي",
+            barcode = "628100102001",
+            category = "دفاتر ومذكرات",
+            purchaseUnit = "باكيت (10 دفاتر)",
+            conversionFactor = 10,
+            purchaseCostPerUnit = 50.0,
+            costPerPiece = 5.0,
+            saleUnit = "دفتر",
+            salePricePerPiece = 8.0,
+            salePricePerDozen = 75.0,
+            stockPieces = 40,
+            minStockAlert = 8
+        ),
+        ProductEntity(
+            name = "دفتر مدرسي 40 ورقة مسطر",
+            barcode = "628100102002",
+            category = "دفاتر ومذكرات",
+            purchaseUnit = "دستة (12 دفتر)",
+            conversionFactor = 12,
+            purchaseCostPerUnit = 24.0,
+            costPerPiece = 2.0,
+            saleUnit = "دفتر",
+            salePricePerPiece = 3.5,
+            salePricePerDozen = 36.0,
+            stockPieces = 72,
+            minStockAlert = 15
+        ),
+        ProductEntity(
+            name = "ورق تصوير A4 رزمة 500 ورقة (80 جم)",
+            barcode = "628100103001",
+            category = "أوراق وطباعة",
+            purchaseUnit = "كرتونة (5 رزم)",
+            conversionFactor = 5,
+            purchaseCostPerUnit = 95.0,
+            costPerPiece = 19.0,
+            saleUnit = "رزمة",
+            salePricePerPiece = 24.0,
+            salePricePerCarton = 115.0,
+            stockPieces = 15,
+            minStockAlert = 5
+        ),
+        ProductEntity(
+            name = "ألوان خشبية 24 لون مابيد",
+            barcode = "628100104001",
+            category = "أدوات فنية ورسم",
+            purchaseUnit = "كرتونة (10 علب)",
+            conversionFactor = 10,
+            purchaseCostPerUnit = 120.0,
+            costPerPiece = 12.0,
+            saleUnit = "علبة",
+            salePricePerPiece = 18.0,
+            salePricePerCarton = 165.0,
+            stockPieces = 18,
+            minStockAlert = 4
+        ),
+        ProductEntity(
+            name = "طقم مساطر هندسية شفاف 4 قطع",
+            barcode = "628100104002",
+            category = "أدوات فنية ورسم",
+            purchaseUnit = "باكيت (12 طقم)",
+            conversionFactor = 12,
+            purchaseCostPerUnit = 36.0,
+            costPerPiece = 3.0,
+            saleUnit = "طقم",
+            salePricePerPiece = 5.0,
+            salePricePerDozen = 55.0,
+            stockPieces = 24,
+            minStockAlert = 6
+        ),
+        ProductEntity(
+            name = "آلة حاسبة علمية كاسيو FX-991",
+            barcode = "628100105001",
+            category = "أجهزة وإلكترونيات",
+            purchaseUnit = "كرتونة (10 حبات)",
+            conversionFactor = 10,
+            purchaseCostPerUnit = 480.0,
+            costPerPiece = 48.0,
+            saleUnit = "حبة",
+            salePricePerPiece = 65.0,
+            salePricePerCarton = 620.0,
+            stockPieces = 8,
+            minStockAlert = 3
+        ),
+        ProductEntity(
+            name = "مصحف المدينة المنورة تجليد فاخر وسط",
+            barcode = "628100106001",
+            category = "كتب ومصاحف",
+            purchaseUnit = "كرتونة (10 مصاحف)",
+            conversionFactor = 10,
+            purchaseCostPerUnit = 250.0,
+            costPerPiece = 25.0,
+            saleUnit = "مصحف",
+            salePricePerPiece = 38.0,
+            salePricePerCarton = 350.0,
+            stockPieces = 12,
+            minStockAlert = 4
+        ),
+        ProductEntity(
+            name = "ملف حفظ مستندات كبسولة بلاستيك A4",
+            barcode = "628100107001",
+            category = "ملفات وتنظيم",
+            purchaseUnit = "باكيت (12 ملف)",
+            conversionFactor = 12,
+            purchaseCostPerUnit = 18.0,
+            costPerPiece = 1.5,
+            saleUnit = "ملف",
+            salePricePerPiece = 3.0,
+            salePricePerDozen = 30.0,
+            stockPieces = 36,
+            minStockAlert = 10
+        ),
+        ProductEntity(
+            name = "لاصق سائل UHU 35 مل",
+            barcode = "628100107002",
+            category = "لوازم مكتبية ولواصق",
+            purchaseUnit = "علبة (24 حبة)",
+            conversionFactor = 24,
+            purchaseCostPerUnit = 48.0,
+            costPerPiece = 2.0,
+            saleUnit = "حبة",
+            salePricePerPiece = 3.5,
+            salePricePerDozen = 38.0,
+            stockPieces = 4, // Intentionally low stock to show alert immediately!
+            minStockAlert = 6
+        )
+    )
+}
